@@ -1,0 +1,36 @@
+---
+lessonName: SK Test Lesson
+lessonId: 2
+category: fundamentals
+tier: ptr #NEVER promote to prod. Not a real lesson
+description: |
+  Example lesson SK Test
+
+slug: SKTest
+tags:
+- foo
+- bar
+- skk143
+
+endpoints:
+- name: linux1
+  image: smk4664/antidote_test
+  presentations:
+  - name: cli
+    port: 22
+    type: ssh
+- name: linux2
+  image: antidotelabs/utility
+  configurationType: ansible
+  presentations:
+  - name: cli
+    port: 22
+    type: ssh
+
+
+stages:
+  - id: 1
+    description: Directories
+stages:
+  - id: 2
+    description: Ansible

@@ -1,0 +1,3 @@
+{{ "%s\t%s\t%s\t%s"|format("Name", "Source", "Destination", "Type") }}
+{{ "%s\t%s\t%s\t%s"|format("----", "------", "------------", "-----") }}{% for xcon in xconnects.keys() %}
+{{ "%s\t%s\t%s\t%s"|format(xcon,xconnects[xcon]['source-int'],xconnects[xcon]['dest-int'],xconnects[xcon]['type']) }}{% endfor %}

@@ -1,0 +1,7 @@
+.pyc
+.pydevproject
+.project
+*.txt
+*.conf
+/__pycache__
+/.vscode

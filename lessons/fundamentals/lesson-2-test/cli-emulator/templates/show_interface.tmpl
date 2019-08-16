@@ -1,0 +1,24 @@
+interface {{ interface }}
+  Description: {{ interfaces[interface]['description'] }}{% if sub_int %}
+  Logical interface: {{ sub_int }}
+    Description: {{ interfaces[interface]['sub_interfaces'][sub_int]['description'] }}
+    Protocol address {{ interfaces[interface]['sub_interfaces'][sub_int]['ip_address'] }}
+    Type: {{ interfaces[interface]['sub_interfaces'][sub_int]['type'] }}
+    VLAN ID: {{ interfaces[interface]['sub_interfaces'][sub_int]['vlan'] }}
+    Bandwidth: {{ interfaces[interface]['sub_interfaces'][sub_int]['bandwidth'] }}
+    Protocol state (interface/protocol): {{ interfaces[interface]['sub_interfaces'][sub_int]['int_state'] }}/{{ interfaces[interface]['sub_interfaces'][sub_int]['proto_state'] }}
+{% else %}{% if interfaces[interface]['sub_interfaces'] is defined %}{% for sub_int in interfaces[interface]['sub_interfaces'].keys() %}
+  Logical interface: {{ sub_int }}
+    Description: {{ interfaces[interface]['sub_interfaces'][sub_int]['description'] }}
+    Protocol address {{ interfaces[interface]['sub_interfaces'][sub_int]['ip_address'] }}
+    Type: {{ interfaces[interface]['sub_interfaces'][sub_int]['type'] }}
+    VLAN ID: {{ interfaces[interface]['sub_interfaces'][sub_int]['vlan'] }}
+    Bandwidth: {{ interfaces[interface]['sub_interfaces'][sub_int]['bandwidth'] }}
+    Protocol state (interface/protocol): {{ interfaces[interface]['sub_interfaces'][sub_int]['int_state'] }}/{{ interfaces[interface]['sub_interfaces'][sub_int]['proto_state'] }}
+  {% endfor %}{% else %}
+  Protocol address {{ interfaces[interface]['ip_address'] }}
+  Type: {{ interfaces[interface]['type'] }}
+  VLAN ID: {{ interfaces[interface]['vlan'] }}
+  Bandwidth: {{ interfaces[interface]['bandwidth'] }}
+  Protocol state (interface/protocol): {{ interfaces[interface]['int_state'] }}/{{ interfaces[interface]['proto_state'] }}
+  {% endif %}{% endif %}
