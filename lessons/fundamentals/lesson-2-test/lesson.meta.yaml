@@ -19,18 +19,15 @@ endpoints:
   - name: cli
     port: 22
     type: ssh
-- name: linux2
-  image: antidotelabs/utility
-  configurationType: ansible
+- name: theia
+  image: smk4664/antidote-theia
   presentations:
-  - name: cli
-    port: 22
-    type: ssh
-
+  - name: web
+    port: 80
+    type: http
 
 stages:
   - id: 1
     description: Directories
-stages:
   - id: 2
     description: Ansible
