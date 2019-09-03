@@ -2,7 +2,7 @@
 
 ---
 
-#### This is a Test
+### This is a Test
 
 This lesson is meant to be a test of the various features of the Antidote platform.
 
