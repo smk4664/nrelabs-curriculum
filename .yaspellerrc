@@ -8,9 +8,23 @@
         "influxdb",
         "Ansible",
         "pars(|e)able",
-        "playbooks",
-        "JSNAPy",
-        "Jinja(|2)",
-        "NRE"
+        "playbook(|s)",
+        "JSNAP(y|Y)",
+        "(J|j)inja(|2)",
+        "j2",
+        "vars",
+        "PyEz",
+        "(J|j)unos",
+        "jnpr",
+        "hostname(|s)",
+        "NETCONF",
+        "(HOSTNAME|hostname)",
+        "dev",
+        "PyCharm",
+        "(|i|e)BGP",
+        "NRE",
+        "(VLAN|vlan)(|s)",
+        "(T|t)erraform",
+        "(|v|V)(QFX|qfx)(|[123])"
     ]
 }
