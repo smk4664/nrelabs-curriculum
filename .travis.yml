@@ -5,9 +5,9 @@ matrix:
         - '12'
       install:
         - npm install -g markdownlint-cli
-        - npm install -g markdown-spellcheck
+        - npm install yaspeller-ci --save-dev
       script:
-        - mdspell -r -n --dictionary spellcheck "lessons/**/*.md"
+        - yaspeller-ci lessons/**/*.md
         - markdownlint lessons/**/*.md
 
     - language: generic
