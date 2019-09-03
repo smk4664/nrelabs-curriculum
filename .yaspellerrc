@@ -2,7 +2,7 @@
     "lang": "en",
     "dictionary": [
         "YAML(|'s)",
-        "yaml",
+        "y(|a)ml",
         "endpoint(|s)",
         "influxdb",
         "Ansible",
@@ -42,7 +42,7 @@
         "ShrutiVPawaskar",
         "programmatically",
         "preinstalled",
-        "config(|s)",
+        "c(|on)f(|i)g(|s)",
         "sourcing",
         "echofoo",
         "exportvar",
@@ -90,9 +90,16 @@
         "jsd",
         "(IO|io)",
         "proto(|c)",
-        "xe"
+        "xe",
+        "RPC(|s)",
+        "utils",
+        "antidotepassword",
+        "cli",
+        "jweidley",
+        "v100"
     ],
     "ignoreURLs": true,
     "ignoreCapitalization": true,
-    "ignoreUppercase": true
+    "ignoreUppercase": true,
+    "ignoreTags": ["code", "script", "pre"]
 }
