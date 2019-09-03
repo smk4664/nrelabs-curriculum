@@ -130,7 +130,10 @@
         "repo",
         "untracked",
         "FileSystemLoader",
-        "unordered"
+        "unordered",
+        "dict",
+        "STIG(|s)",
+        "Eg"
     ],
     "ignoreUrls": true,
     "ignoreCapitalization": true,
