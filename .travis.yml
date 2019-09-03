@@ -5,7 +5,9 @@ matrix:
         - '12'
       install:
         - npm install -g markdownlint-cli
+        - npm install -g markdown-spellcheck
       script:
+        - mdspell "lessons/**/*.md"
         - markdownlint lessons/**/*.md
 
     - language: generic
