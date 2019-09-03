@@ -9,6 +9,7 @@ matrix:
       script:
         - yaspeller-ci lessons/**/*.md || true
         - markdownlint lessons/**/*.md || true
+        - npx write-good lessons/**/*.md || true
 
     - language: generic
       notifications:
