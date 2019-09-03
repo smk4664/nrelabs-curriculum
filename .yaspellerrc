@@ -95,10 +95,9 @@
         "utils",
         "antidotepassword",
         "cli",
-        "jweidley",
         "v100"
     ],
-    "ignoreURLs": true,
+    "ignoreUrls": true,
     "ignoreCapitalization": true,
     "ignoreUppercase": true,
     "ignoreTags": ["code", "script", "pre"]
