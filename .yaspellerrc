@@ -1,7 +1,7 @@
 {
     "lang": "en",
     "dictionary": [
-        "YAML",
+        "YAML(|'s)",
         "yaml",
         "endpoint(|s)",
         "UI",
@@ -25,6 +25,27 @@
         "NRE",
         "(VLAN|vlan)(|s)",
         "(T|t)erraform",
-        "(|v|V)(QFX|qfx)(|[123])"
+        "(|v|V)(QFX|qfx)(|[123])",
+        "(SNMP|snmp)",
+        "NetOps",
+        "DevOps",
+        "StackStorm",
+        "st2",
+        "templating",
+        "CLI",
+        "str",
+        "IOS",
+        "filesystem",
+        "filesize",
+        "foo(|s)",
+        "repeatable",
+        "env",
+        "sh",
+        "NAPALM(|'s)",
+        "shahbhoomi",
+        "ShrutiVPawaskar",
+        "programmatically",
+        "preinstalled",
+        "config(|s)"
     ]
 }
