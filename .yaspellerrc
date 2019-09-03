@@ -1,3 +1,16 @@
 {
-    "lang": "en"
+    "lang": "en",
+    "dictionary": [
+        "YAML('s)",
+        "yaml",
+        "endpoint(s)",
+        "UI",
+        "influxdb",
+        "Ansible",
+        "pars(e)able",
+        "playbooks",
+        "JSNAPy",
+        "Jinja(2)",
+        "NRE"
+    ]
 }
