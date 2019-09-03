@@ -6,7 +6,7 @@ matrix:
       install:
         - npm install -g markdownlint-cli
       script:
-        - markdownlint *.md
+        - markdownlint -i CHANGELOG.md *.md
 
     - language: generic
       notifications:
