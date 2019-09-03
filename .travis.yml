@@ -9,8 +9,10 @@ matrix:
         - npm install -g write-good
       script:
         - yaspeller-ci lessons/**/*.md || true
+        - yaspeller-ci lessons/**/*.ipynb || true
         - markdownlint lessons/**/*.md || true
-        - write-good `find ./lessons` *.md --no-tooWordy --parse || true
+        - write-good `find ./lessons -name "*.md"` --no-tooWordy --parse || true
+        - write-good `find ./lessons -name "*.ipynb"` --no-tooWordy --parse || true
     
     - language: generic
       notifications:
