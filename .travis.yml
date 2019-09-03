@@ -10,7 +10,7 @@ matrix:
       script:
         - yaspeller-ci lessons/**/*.md || true
         - markdownlint lessons/**/*.md || true
-        - write-good `find ./lessons` *.md --no-tooWordy || true
+        - write-good `find ./lessons` *.md --no-tooWordy --parse || true
     
     - language: generic
       notifications:
