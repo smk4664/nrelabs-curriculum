@@ -145,7 +145,7 @@
         "nbformat",
         "codemirror",
         "kernelspec",
-        "de facto",
+        "facto",
         "programmability",
         "undercase",
         "NRELabs",
@@ -163,7 +163,12 @@
         "tostring",
         "ls",
         "lxml",
-        "prepopulated"
+        "prepopulated",
+        "yamlDict",
+        "yamlFile",
+        "complexdict",
+        "mydev in",
+        "serialnumber"
 
     ],
     "ignoreUrls": true,
