@@ -36,4 +36,4 @@ curl \
 ```
 <button type="button" class="btn btn-primary btn-sm" onclick="runSnippetInTab('linux1', this)">Run this snippet</button>
 
-This output is a bit different than the first output. This isn't HTML at all - it's a very efficient format called JSON, or "Javascript Object Notation". It's the de-facto standard for the vast majority of REST APIs.
+This output is a bit different than the first output. This isn't HTML at all - it's a very efficient format called JSON, or "Javascript Object Notation". It's the de facto standard for the vast majority of REST APIs.

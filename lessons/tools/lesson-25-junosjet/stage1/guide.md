@@ -45,4 +45,4 @@ show system connections | match LISTEN | match "\.1883|\.32767"
 ```
 <button type="button" class="btn btn-primary btn-sm" onclick="runSnippetInTab('vqfx', this)">Run this snippet</button>
 
-Now the Junos OS device is ready for off-box JET applications and it's time to get some action!  In the next chapter, we'll go through the notifiaction mechanism and collect some events from the MQTT event bus.
+Now the Junos OS device is ready for off-box JET applications and it's time to get some action!  In the next chapter, we'll go through the notification mechanism and collect some events from the MQTT event bus.
