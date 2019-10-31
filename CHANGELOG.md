@@ -2,6 +2,13 @@
 
 ## In development
 
+- Set tshoot lesson images to use centos7 [#275](https://github.com/nre-learning/nrelabs-curriculum/pull/275)
+- Added FRR PTR demo [#273](https://github.com/nre-learning/nrelabs-curriculum/pull/273)
+- Fixed Cumulus PTR demo [#271](https://github.com/nre-learning/nrelabs-curriculum/pull/271)
+- Added Cumulus PTR demo [#253](https://github.com/nre-learning/nrelabs-curriculum/pull/253)
+- Updated collection in BASH lesson file to 9 (PacketPushers) [#258](https://github.com/nre-learning/nrelabs-curriculum/pull/258)
+- Disable caching for all image builds [#260](https://github.com/nre-learning/nrelabs-curriculum/pull/260)
+- New Images and PoC Lessons for NXTWORK 2019 Hackathon [#261](https://github.com/nre-learning/nrelabs-curriculum/pull/261)
 
 ## v1.0.0 - August 08, 2019
 
