@@ -8,11 +8,8 @@ matrix:
         - npm install yaspeller-ci --save-dev
         - npm install -g write-good
       script:
-        - yaspeller-ci lessons/**/*.md --only-errors --no-colors || true
-        - yaspeller-ci lessons/**/*.ipynb --only-errors --no-colors || true
-        - markdownlint lessons/**/*.md || true
-        - write-good `find ./lessons -name "*.md"` --no-tooWordy --parse || true
-        - write-good `find ./lessons -name "*.ipynb"` --no-tooWordy --parse || true
+        - yaspeller-ci lessons/**/*.md --only-errors || true
+        - yaspeller-ci lessons/**/*.ipynb --only-errors || true
     
     - language: generic
       notifications:
