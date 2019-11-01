@@ -1,5 +1,6 @@
 {
     "lang": "en",
+    "format": "html",
     "dictionary": [
         "YAML(|'s)",
         "y(|a)ml",
