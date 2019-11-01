@@ -173,7 +173,7 @@
     ],
     "ignoreUrls": true,
     "ignoreCapitalization": true,
-    "ignoreText":["<pre>.*</pre>"],
+    "ignoreText":["<pre\?[^]*?*pre>"],
     "ignoreUppercase": true,
     "ignoreDigits": true,
     "ignoreTags": ["code", "script", "pre"]
