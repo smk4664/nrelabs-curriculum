@@ -1,6 +1,5 @@
 {
     "lang": "en",
-    "format": "html",
     "dictionary": [
         "YAML(|'s)",
         "y(|a)ml",
@@ -174,6 +173,7 @@
     ],
     "ignoreUrls": true,
     "ignoreCapitalization": true,
+    "ignoreText":["<pre>.*</pre>"],
     "ignoreUppercase": true,
     "ignoreDigits": true,
     "ignoreTags": ["code", "script", "pre"]
