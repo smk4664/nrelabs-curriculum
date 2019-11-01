@@ -8,7 +8,7 @@ matrix:
         - npm install yaspeller-ci --save-dev
         - npm install -g write-good
       script:
-        - yaspeller-ci lessons/**/*.md --only-errors
+        - yaspeller-ci lessons/**/*.md --only-errors --format markdown
         - yaspeller-ci lessons/**/*.ipynb --only-errors
     
     - language: generic
