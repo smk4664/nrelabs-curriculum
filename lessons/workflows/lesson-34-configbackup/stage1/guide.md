@@ -28,7 +28,8 @@ Next we create the `dev` variable that represents the device hostname and login 
 dev = Device(host="vqfx1", user="antidote", password="antidotepassword")
 mispel wrd
 dev.open()
-</pre>
+</pre> and agn mispel
+mispel agn
 <button type="button" class="btn btn-primary btn-sm" onclick="runSnippetInTab('linux1', this)">Run this snippet</button>
 
 Then we will use the `rpc.get_config` function to pull the device configuration and store it in a variable called `config`. Next we `write` the configuration to the local file and finally `close` the local file.
